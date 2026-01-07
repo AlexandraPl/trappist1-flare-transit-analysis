@@ -1,6 +1,6 @@
 # TRAPPIST-1 Flare–Transit Analysis
 
-This repository contains the Python code and analysis framework developed as part of a 30 ECTS M.Sc. thesis project.  
+This repository contains the Python code and analysis framework developed as part of an M.Sc. thesis project.  
 The project investigates the effect of stellar flares on exoplanet transit light curves and the reliability of transmission spectra, with a focus on the TRAPPIST-1 system observed by JWST/NIRSpec.
 
 ---
@@ -14,7 +14,6 @@ The code implements a simulation-like framework performing:
 - Gaussian Process noise modeling using `george`  
 - Bayesian model comparison with nested sampling (`ultranest`)
 
-Full methodological details can be found in the accompanying thesis.
 
 ---
 
@@ -27,12 +26,3 @@ Parts of the code were written with the assistance of **LLMs** for programming a
 - [Claude Sonnet 4.5 (Anthropic), via GitHub Copilot](https://www.anthropic.com/claude/sonnet)
 
 All code was manually reviewed, tested, and validated by the author.
-
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/yourusername/trappist1-flare-transit-analysis.git
-cd trappist1-flare-transit-analysis
-pip install -r requirements.txt
